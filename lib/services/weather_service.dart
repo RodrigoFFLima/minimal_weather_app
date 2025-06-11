@@ -7,13 +7,13 @@ import 'package:http/http.dart' as http;
 import '../models/weather_model.dart';
 
 class WeatherService {
-  static const BASE_URL = 'https://api.openweathermap.org/data/3.0/weather';
+  static const BASE_URL = 'http://api.openweathermap.org/data/2.5/weather';
   final String apiKey;
 
   WeatherService(this.apiKey);
 
   Future<Weather> getWeather(String cityName) async {
-    final url = Uri.parse('$BASE_URL?q=$cityName&appid=$apiKey&units=metric');
+    final url = Uri.parse('$BASE_URL?q=$cityName&APPID=$apiKey&units=metric');
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
