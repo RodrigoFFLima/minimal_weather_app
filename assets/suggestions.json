@@ -1,0 +1,33 @@
+{
+  "cityName": "Dourados, MS",
+  "places": [
+    {
+      "name": "Shopping Avenida Center",
+      "category": "Compras e Lazer",
+      "icon": "shopping_bag",
+      "description": "Lojas, cinema e praça de alimentação.",
+      "suitable_weather": ["rainy", "cloudy", "cold", "hot"]
+    },
+    {
+      "name": "Alma Cacao",
+      "category": "Cafés e Sabores",
+      "icon": "coffee",
+      "description": "Se aqueça com um chocolate quente especial.",
+      "suitable_weather": ["rainy", "cloudy", "cold"]
+    },
+    {
+      "name": "Complexo Cultural T. Girassol",
+      "category": "Cultura e Lazer",
+      "icon": "museum",
+      "description": "Explore arte e cultura em um ambiente fechado.",
+      "suitable_weather": ["rainy", "cloudy", "cold"]
+    },
+    {
+      "name": "Parque dos Ipês",
+      "category": "Ao Ar Livre",
+      "icon": "park",
+      "description": "Ótimo para caminhadas e contato com a natureza.",
+      "suitable_weather": ["sunny", "cloudy"]
+    }
+  ]
+}
